@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+.menu-main {
+  background-image: url("IT.webp");
+  margin: 40px;
+  padding: 10px;
+  text-align: center;
+  margin-right: 20;
+}
+.menu-main li 
+{
+    display: inline-block;
+}
+.menu-main a {
+  text-decoration: none;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  letter-spacing: 2px;
+  position: relative;
+  padding: 20px;
+  margin: auto;
+  font-size: 17px;
+  display: inline-block;
+}
+.menu-main a, .menu-main a:visited 
+{color: black;}
+.menu-main a.current, .menu-main a:hover
+{color: greenyellow;}
